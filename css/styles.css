@@ -31,6 +31,10 @@ body {
   height: 3300px;
 }
 
+img {
+    display: block;
+}
+
 a {
   text-decoration: none;
   color: var(--slate);
@@ -64,7 +68,7 @@ a {
   overflow: hidden;
 }
 
-header {
+.header {
   justify-content: space-between;
   align-items: center;
   padding: 24px 156px;
@@ -122,7 +126,7 @@ header {
 }
 
 .title {
-  width: 496px;
+  max-width: 496px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -135,12 +139,12 @@ header {
 .title-section {
   width: 1440px;
   height: 600px;
-  padding-top: 188px;
-  padding-left: 472px;
+  padding: 188px 0;
   background-color: var(--navy-blue);
 }
 
 .order-button {
+    display: block;
   font-family: "Roboto", sans-serif;
   background-color: var(--iris);
   cursor: pointer;
@@ -150,7 +154,8 @@ header {
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 1.5;
-  width: 169px;
+  min-width: 169px;
+    border: none;
   height: 56px;
   padding-top: 16px;
   padding-right: 32px;
