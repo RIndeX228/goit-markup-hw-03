@@ -42,6 +42,7 @@ a {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .logo {
@@ -82,7 +83,7 @@ a {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header:first-child {
+.header-container {
   display: flex;
 }
 
