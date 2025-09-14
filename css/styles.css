@@ -39,9 +39,15 @@ a {
   text-decoration: none;
   color: var(--slate);
 }
+
+.header-container {
+  display: flex;
+}
+
+
 .container {
   width: 1158px;
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 0 15px;
 }
 
@@ -83,9 +89,7 @@ a {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
-  display: flex;
-}
+
 
 .nav-menu-list {
   width: 261px;
@@ -316,6 +320,7 @@ ul {
 
 .portfolio-section-item-text {
   padding: 32px 16px;
+  margin: 0px auto;
   border: 1px solid #e7e9fc;
   border-bottom: none;
 }
