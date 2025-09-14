@@ -40,20 +40,21 @@ a {
   color: var(--slate);
 }
 
-.header-container {
-  display: flex;
-  margin: 0px auto;
-  padding: 0 15px;
-  align-items: center;
-  justify-content: space-between;
-  width: 1158px;
-}
+
 
 
 .container {
   width: 1158px;
   margin: 0px auto;
   padding: 0 15px;
+}
+
+.header-container {
+  display: flex;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 1158px;
 }
 
 .logo {
